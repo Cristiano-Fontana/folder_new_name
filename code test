@@ -1,0 +1,927 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+  "id": "12864",
+  "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864",
+  "key": "ABH-372",
+  "fields": {
+    "statuscategorychangedate": "2019-10-01T09:15:47.789+0000",
+    "fixVersions": [],
+    "resolution": null,
+    "customfield_10104": null,
+    "lastViewed": null,
+    "priority": {
+      "self": "https://akerbiomarine.atlassian.net/rest/api/2/priority/10000",
+      "iconUrl": "https://akerbiomarine.atlassian.net/images/icons/priorities/trivial.svg",
+      "name": "None",
+      "id": "10000"
+    },
+    "labels": [
+      "Jeeves-MDM",
+      "automation-form"
+    ],
+    "timeestimate": null,
+    "aggregatetimeoriginalestimate": null,
+    "versions": [],
+    "issuelinks": [
+      {
+        "id": "12757",
+        "self": "https://akerbiomarine.atlassian.net/rest/api/2/issueLink/12757",
+        "type": {
+          "id": "10105",
+          "name": "X Aker BioMarine Helpdesk",
+          "inward": "X Aker BioMarine Helpdesk child",
+          "outward": "X Aker BioMarine Helpdesk parent",
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issueLinkType/10105"
+        },
+        "inwardIssue": {
+          "id": "12865",
+          "key": "JMDF-213",
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12865",
+          "fields": {
+            "summary": "[Qrill Houston] New Item: Qrill AstaOmega Oil 2/8",
+            "status": {
+              "self": "https://akerbiomarine.atlassian.net/rest/api/2/status/10081",
+              "description": "",
+              "iconUrl": "https://akerbiomarine.atlassian.net/images/icons/statuses/generic.png",
+              "name": "Master Data Completion",
+              "id": "10081",
+              "statusCategory": {
+                "self": "https://akerbiomarine.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+              }
+            },
+            "priority": {
+              "self": "https://akerbiomarine.atlassian.net/rest/api/2/priority/10000",
+              "iconUrl": "https://akerbiomarine.atlassian.net/images/icons/priorities/trivial.svg",
+              "name": "None",
+              "id": "10000"
+            },
+            "issuetype": {
+              "self": "https://akerbiomarine.atlassian.net/rest/api/2/issuetype/10044",
+              "id": "10044",
+              "description": "Jeeves",
+              "iconUrl": "https://akerbiomarine.atlassian.net/secure/viewavatar?size=medium&avatarId=10311&avatarType=issuetype",
+              "name": "New Items",
+              "subtask": false,
+              "avatarId": 10311
+            }
+          }
+        }
+      }
+    ],
+    "assignee": {
+      "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+      "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+      "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+        "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+        "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+        "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+      },
+      "displayName": "Automation for Jira",
+      "active": true,
+      "timeZone": "Etc/GMT",
+      "accountType": "app"
+    },
+    "status": {
+      "self": "https://akerbiomarine.atlassian.net/rest/api/2/status/3",
+      "description": "",
+      "iconUrl": "https://akerbiomarine.atlassian.net/images/icons/statuses/inprogress.png",
+      "name": "In Progress",
+      "id": "3",
+      "statusCategory": {
+        "self": "https://akerbiomarine.atlassian.net/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "In Progress"
+      }
+    },
+    "components": [],
+    "customfield_10050": null,
+    "customfield_10051": null,
+    "customfield_10052": null,
+    "customfield_10053": null,
+    "customfield_10054": null,
+    "customfield_10055": {
+      "id": "5",
+      "name": "Time to close after resolution",
+      "_links": {
+        "self": "https://akerbiomarine.atlassian.net/rest/servicedeskapi/request/12864/sla/5"
+      },
+      "completedCycles": []
+    },
+    "customfield_10056": {
+      "id": "6",
+      "name": "Time to approve normal change",
+      "_links": {
+        "self": "https://akerbiomarine.atlassian.net/rest/servicedeskapi/request/12864/sla/6"
+      },
+      "completedCycles": []
+    },
+    "customfield_10057": null,
+    "customfield_10058": null,
+    "customfield_10049": null,
+    "aggregatetimeestimate": null,
+    "creator": {
+      "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=5cc6d54ec2e4550e3df4450b",
+      "accountId": "5cc6d54ec2e4550e3df4450b",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7b90151aa52b34e75b0e64de98ac0e2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-4.png&size=48&s=48",
+        "24x24": "https://secure.gravatar.com/avatar/7b90151aa52b34e75b0e64de98ac0e2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-4.png&size=24&s=24",
+        "16x16": "https://secure.gravatar.com/avatar/7b90151aa52b34e75b0e64de98ac0e2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-4.png&size=16&s=16",
+        "32x32": "https://secure.gravatar.com/avatar/7b90151aa52b34e75b0e64de98ac0e2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-4.png&size=32&s=32"
+      },
+      "displayName": "Anders Mühlbradt",
+      "active": true,
+      "timeZone": "Etc/GMT",
+      "accountType": "atlassian"
+    },
+    "subtasks": [],
+    "customfield_10040": {
+      "id": "3",
+      "name": "Time to resolution",
+      "_links": {
+        "self": "https://akerbiomarine.atlassian.net/rest/servicedeskapi/request/12864/sla/3"
+      },
+      "completedCycles": []
+    },
+    "customfield_10041": {
+      "id": "4",
+      "name": "Time to first response",
+      "_links": {
+        "self": "https://akerbiomarine.atlassian.net/rest/servicedeskapi/request/12864/sla/4"
+      },
+      "completedCycles": []
+    },
+    "customfield_10042": {
+      "languageCode": "en",
+      "displayName": "English"
+    },
+    "reporter": {
+      "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=5cc6d54ec2e4550e3df4450b",
+      "accountId": "5cc6d54ec2e4550e3df4450b",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/7b90151aa52b34e75b0e64de98ac0e2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-4.png&size=48&s=48",
+        "24x24": "https://secure.gravatar.com/avatar/7b90151aa52b34e75b0e64de98ac0e2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-4.png&size=24&s=24",
+        "16x16": "https://secure.gravatar.com/avatar/7b90151aa52b34e75b0e64de98ac0e2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-4.png&size=16&s=16",
+        "32x32": "https://secure.gravatar.com/avatar/7b90151aa52b34e75b0e64de98ac0e2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAM-4.png&size=32&s=32"
+      },
+      "displayName": "Anders Mühlbradt",
+      "active": true,
+      "timeZone": "Etc/GMT",
+      "accountType": "atlassian"
+    },
+    "customfield_10044": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10045": null,
+    "customfield_10046": null,
+    "customfield_10047": null,
+    "customfield_10048": null,
+    "customfield_10038": null,
+    "customfield_10039": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "votes": {
+      "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/ABH-372/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": []
+    },
+    "issuetype": {
+      "self": "https://akerbiomarine.atlassian.net/rest/api/2/issuetype/10044",
+      "id": "10044",
+      "description": "Jeeves",
+      "iconUrl": "https://akerbiomarine.atlassian.net/secure/viewavatar?size=medium&avatarId=10311&avatarType=issuetype",
+      "name": "New Items",
+      "subtask": false,
+      "avatarId": 10311
+    },
+    "timespent": null,
+    "project": {
+      "self": "https://akerbiomarine.atlassian.net/rest/api/2/project/10026",
+      "id": "10026",
+      "key": "ABH",
+      "name": "Aker BioMarine Helpdesk",
+      "projectTypeKey": "service_desk",
+      "simplified": false,
+      "avatarUrls": {
+        "48x48": "https://akerbiomarine.atlassian.net/secure/projectavatar?pid=10026&avatarId=10333",
+        "24x24": "https://akerbiomarine.atlassian.net/secure/projectavatar?size=small&s=small&pid=10026&avatarId=10333",
+        "16x16": "https://akerbiomarine.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10026&avatarId=10333",
+        "32x32": "https://akerbiomarine.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10026&avatarId=10333"
+      },
+      "projectCategory": {
+        "self": "https://akerbiomarine.atlassian.net/rest/api/2/projectCategory/10003",
+        "id": "10003",
+        "description": "",
+        "name": "Operations"
+      }
+    },
+    "aggregatetimespent": null,
+    "customfield_10035": null,
+    "customfield_10036": null,
+    "customfield_10037": null,
+    "customfield_10027": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "watches": {
+      "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/ABH-372/watchers",
+      "watchCount": 1,
+      "isWatching": true
+    },
+    "created": "2019-08-26T10:30:37.295+0000",
+    "customfield_10020": null,
+    "customfield_10021": null,
+    "customfield_10022": "0|i00fh3:",
+    "customfield_10023": [],
+    "customfield_10026": null,
+    "customfield_10147": null,
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "PLUGIN_LICENSE_ERROR",
+        "message": "Portfolio for Jira must be licensed for the Parent Link to be available."
+      }
+    },
+    "customfield_10019": "2019-10-01T09:15:33.062+0000",
+    "updated": "2019-11-04T11:34:16.326+0000",
+    "customfield_10090": null,
+    "customfield_10091": null,
+    "customfield_10092": {
+      "self": "https://akerbiomarine.atlassian.net/rest/api/2/customFieldOption/10182",
+      "value": "No",
+      "id": "10182"
+    },
+    "customfield_10093": null,
+    "customfield_10094": null,
+    "timeoriginalestimate": null,
+    "customfield_10096": null,
+    "customfield_10130": null,
+    "description": "Need to set up master data for new product Qrill Asta Omega Oil 11.\nItem numbers will be required for the following packaging sizes: 185kg, 25kg and 1.2kg\n\nAlso need item numbers for label for the three packaging sizes.\n\nThis is a vessel product.",
+    "customfield_10010": {
+      "_links": {
+        "jiraRest": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864",
+        "web": "https://akerbiomarine.atlassian.net/servicedesk/customer/portal/2/ABH-372",
+        "self": "https://akerbiomarine.atlassian.net/rest/servicedeskapi/request/12864"
+      },
+      "requestType": {
+        "_expands": [
+          "field"
+        ],
+        "id": "34",
+        "_links": {
+          "self": "https://akerbiomarine.atlassian.net/rest/servicedeskapi/servicedesk/2/requesttype/34"
+        },
+        "name": "Master Data Input Form – New item",
+        "description": "",
+        "helpText": "",
+        "issueTypeId": "10044",
+        "serviceDeskId": "2",
+        "groupIds": [
+          "8"
+        ],
+        "icon": {
+          "id": "10458",
+          "_links": {
+            "iconUrls": {
+              "48x48": "https://akerbiomarine.atlassian.net/secure/viewavatar?avatarType=SD_REQTYPE&avatarId=10458&size=large",
+              "24x24": "https://akerbiomarine.atlassian.net/secure/viewavatar?avatarType=SD_REQTYPE&avatarId=10458&size=small",
+              "16x16": "https://akerbiomarine.atlassian.net/secure/viewavatar?avatarType=SD_REQTYPE&avatarId=10458&size=xsmall",
+              "32x32": "https://akerbiomarine.atlassian.net/secure/viewavatar?avatarType=SD_REQTYPE&avatarId=10458&size=medium"
+            }
+          }
+        }
+      },
+      "currentStatus": {
+        "status": "In Progress",
+        "statusCategory": "INDETERMINATE",
+        "statusDate": {
+          "iso8601": "2019-08-26T10:30:37+0000",
+          "jira": "2019-08-26T10:30:37.295+0000",
+          "friendly": "26/Aug/19 10:30 AM",
+          "epochMillis": 1566815437295
+        }
+      }
+    },
+    "customfield_10014": null,
+    "customfield_10015": null,
+    "timetracking": {},
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "security": null,
+    "customfield_10007": null,
+    "customfield_10008": null,
+    "customfield_10009": null,
+    "attachment": [],
+    "summary": "Master data for Qrill AstaOmega Oil 11",
+    "customfield_10088": "000560",
+    "customfield_10000": "{}",
+    "customfield_10089": {
+      "self": "https://akerbiomarine.atlassian.net/rest/api/2/customFieldOption/10178",
+      "value": "Qrill",
+      "id": "10178"
+    },
+    "customfield_10001": null,
+    "customfield_10002": [],
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "customfield_10115": null,
+    "environment": null,
+    "duedate": null,
+    "comment": {
+      "comments": [
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/14952",
+          "id": "14952",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Britt Fux-Nilsen commented: To be able to implement MSC code on these Items, I have removed “Not for human consumption” from field Extra1 in QC Attributes tab in Arprod",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-01T09:15:33.062+0000",
+          "updated": "2019-10-01T09:15:33.062+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/14957",
+          "id": "14957",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Anders Mühlbradt commented: Hi, what do you mean implementing MSC code? Houston asta oil is not msc certified...\n",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-01T10:47:51.140+0000",
+          "updated": "2019-10-01T10:47:51.140+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/14963",
+          "id": "14963",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Britt Fux-Nilsen commented: [~accountid:5cc6d54ec2e4550e3df4450b] I was informed that we should start selling Houston Asta as MSC certified since we now have full traceablity in the process. \n\nWhat do we need to get Houston Asta MSC certified?",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-01T11:01:40.808+0000",
+          "updated": "2019-10-01T11:01:40.808+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/14965",
+          "id": "14965",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Anders Mühlbradt commented: Ok, I wasn’t aware. Is [~accountid:5cf4cb1fb87c300f36eb6e25] in the loop on this?\n",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-01T11:04:10.238+0000",
+          "updated": "2019-10-01T11:04:10.238+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/14968",
+          "id": "14968",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Britt Fux-Nilsen commented: Yes, [~accountid:5cf4cb1fb87c300f36eb6e25] is informed.",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-01T11:05:54.364+0000",
+          "updated": "2019-10-01T11:05:54.364+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/14970",
+          "id": "14970",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Beate Strandli commented: [~accountid:5cc6d54ec2e4550e3df4450b][~accountid:5ca35631c0b5612798e2203a] MSC Asta Houston is ok now. We will inform Intertek at the next audit. The set up in Houston now makes able to track the oil.",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-01T11:09:29.369+0000",
+          "updated": "2019-10-01T11:09:29.369+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/14972",
+          "id": "14972",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Anders Mühlbradt commented: Ok, great :)\n",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-01T11:12:31.162+0000",
+          "updated": "2019-10-01T11:12:31.162+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/15029",
+          "id": "15029",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Veronica Myran commented: [~accountid:5ca35631c0b5612798e2203a] need to be checked with QA if they require statement “Not for human consumption” on the drums. Now that field is replaced with MSC code so not possible today to add automatic on drums/labels. \n\n\n\n[~accountid:5cc6d54ec2e4550e3df4450b] maybe you know?\n\n",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-02T06:14:26.106+0000",
+          "updated": "2019-10-02T06:14:26.106+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/15121",
+          "id": "15121",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Britt Fux-Nilsen commented: Talked to [~accountid:5cc6d54ec2e4550e3df4450b] today, and we want to try to get the Not for human consumption statement on the label as well.\r\nVeronica and I have an idea on how to do this in jeeves, by adding the sentence on the AstaOmega labels. We will do a test to see if this is possible, before we do any other changes in jeeves.",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-02T14:41:32.386+0000",
+          "updated": "2019-10-02T14:41:32.386+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/15453",
+          "id": "15453",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Britt Fux-Nilsen commented: Test in Jeeves for printing “Not for Human Consumption” on label for this product was successful. Will initiate implementation in jeeves.",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-08T21:10:40.814+0000",
+          "updated": "2019-10-08T21:10:40.814+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/16279",
+          "id": "16279",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Veronica Myran commented: [~accountid:5ca35631c0b5612798e2203a] have removed assignee on this as we need to fix the 250gr label first 🙂 ",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-23T05:33:09.237+0000",
+          "updated": "2019-10-23T05:33:09.237+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/16379",
+          "id": "16379",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Britt Fux-Nilsen commented: [~accountid:5cf4cb1fb87c300f36eb6e25] Label for sample bottles are also ok now, so item is ready to be relased in entity 1000 and 1500",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-24T09:04:58.567+0000",
+          "updated": "2019-10-24T09:04:58.567+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/16419",
+          "id": "16419",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Aurore de La Rochebrochard commented: Same comment as [https://akerbiomarine.atlassian.net/browse/JMDF-212|https://akerbiomarine.atlassian.net/browse/JMDF-212|smart-link] QC cannot be done as spec is not approved yet. ",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-24T12:48:24.547+0000",
+          "updated": "2019-10-24T12:48:24.547+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/16530",
+          "id": "16530",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Aurore de La Rochebrochard commented: Based on check done for the other item related to [https://akerbiomarine.atlassian.net/browse/JMDF-212|https://akerbiomarine.atlassian.net/browse/JMDF-212|smart-link] Same Corrections are needed in Jeeves before approval. Email sent to VM and HZ. Waiting for them to come back on the points to be able to approve. ",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-10-28T12:21:49.401+0000",
+          "updated": "2019-10-28T12:21:49.401+0000",
+          "jsdPublic": true
+        },
+        {
+          "self": "https://akerbiomarine.atlassian.net/rest/api/2/issue/12864/comment/16913",
+          "id": "16913",
+          "author": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "body": "Aurore de La Rochebrochard commented: All items set on Sellable. ",
+          "updateAuthor": {
+            "self": "https://akerbiomarine.atlassian.net/rest/api/2/user?accountId=557058%3Af58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "accountId": "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077",
+            "emailAddress": "com.codebarrel.addons.automation@connect.atlassian.com",
+            "avatarUrls": {
+              "48x48": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=48&s=48",
+              "24x24": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=24&s=24",
+              "16x16": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=16&s=16",
+              "32x32": "https://secure.gravatar.com/avatar/600529a9c8bfef89daa848e6db28ed2d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAJ-0.png&size=32&s=32"
+            },
+            "displayName": "Automation for Jira",
+            "active": true,
+            "timeZone": "Etc/GMT",
+            "accountType": "app"
+          },
+          "created": "2019-11-04T11:34:16.326+0000",
+          "updated": "2019-11-04T11:34:16.326+0000",
+          "jsdPublic": true
+        }
+      ],
+      "maxResults": 15,
+      "total": 15,
+      "startAt": 0
+    }
+  }
+}
